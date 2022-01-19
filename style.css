@@ -1,0 +1,352 @@
+
+
+
+/* MAIN CONTENT */
+
+/*.main-content{
+   
+    background-color: rgb(20, 20, 94);
+    padding: 3% 0;
+ }
+ .col-4{
+     width: 18%;
+     background-color: white;
+     margin: 1%;
+     padding:2%;
+     float: left;
+ }*/
+ /*.container {
+    margin:0 auto; /* this will center the page */
+    /*width:1160px;  use your width here
+     font-family: Arial, Helvetica, sans-serif; 
+ }*/
+ 
+.img-responsive{
+    padding: 5px;
+    height: 300px;
+    width: 20%;
+}
+.center{
+    margin:0 auto; /* this will center the page */
+    width:1160px; 
+}
+/*body{
+    margin:0 ;
+    padding: 0;
+    
+    /* background-color:rgb(20, 20, 94) ; */
+/* } */
+
+nav{
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px 90px;
+    background-color: rgb(20, 15, 65);
+    
+    /* border-bottom: 1px solid rgb(15, 4, 4); */
+}
+nav .logo{
+    padding: 22px 20px;
+    height: 80px;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    
+}
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+
+}
+nav ul li a{
+    line-height:80px;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+
+    
+}
+nav ul li a:hover{
+  border-radius: 6px;
+  color: #27478b;
+}
+
+.slider{
+    width: 100%;
+    height: 100vh;
+    background: url(notebook-natural-laptop-macbook.jpg);
+    background-size:cover;
+    background-position: cover;
+    
+
+}
+
+.heading{
+    color: white;
+    font-weight: bold;
+}
+.TL{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    margin: 10%;
+    
+ }
+ .fwcolor{
+     color: white;
+ }
+ .fbcolor{
+     color: black;
+ }
+
+ .btn{
+    background-color : #27478b;
+    color: white;
+    border-radius: 4px; 
+    padding: 10px 24px;
+    font-weight: bold;
+
+}
+.btn:hover{
+    /* background-color : #70a1ff; */
+    color: #555597;
+    background-color:white; 
+    font-weight: bold;
+}
+.welcome{
+    text-align: center;
+    font-weight: bold;
+}
+#hp  {
+    float: right;    
+     margin: 0 0 0 15px;
+     filter: blur(2px); 
+    }
+.weltext{
+    font-family: 'Josefin Slab', serif;
+    color:#27478b;
+}
+
+/* welcome text */
+.wrapper{
+    margin-top: 10%;
+
+}
+.wet{
+    display: flex;
+}
+.wrapper h3{
+    text-align: center;
+    font-family: 'Josefin Slab', serif;
+    color:#27478b;
+
+}
+.wrapper p{
+    color: rgb(107, 148, 224);
+}
+/*.email{
+    text-align: center;
+}*/
+/*   .....project....*/
+.project{
+    width: 25%;
+    background-color: #dfe4ea;
+}
+.pimg img{
+width: 100%;
+}
+.project h2{
+  text-align: center;
+}
+.psection{
+    display: flex;
+}
+.project:hover{
+   background-color: #f1f2f6;
+}
+
+/* pricing table...... */
+.ptsection h3{
+    color: black;
+}
+.ptsection h4{
+    color: #84817a;
+}
+.forspace{
+ padding: 50px;
+}
+.ptsection p{
+text-align: center;
+}
+
+
+/*.....video project section....*/
+.video-section{
+    width: 100%;
+    }
+
+   .video-scroll{
+       display: flex;
+       overflow-x: scroll;
+        justify-content: center;
+        align-items: center;
+ }
+   .video-scroll::-webkit-scrollbar{
+       width: 0;
+   }
+    .video-scroll .item{
+        text-align: center;
+        margin-right: 2px;
+        background-color: gray;
+        position: relative;
+        min-width: 400px;
+        padding: 1% 0;
+        height: 300px;
+    }
+    .item iframe{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .team{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .team-names .one{
+        display: flex;
+        justify-content: space-between;
+        margin: 30px 0;
+    }
+    .team-names .two{
+        display: flex;
+        justify-content: space-between;
+        margin: 30px 0;
+    }
+    .person{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .team-names img{
+        width: 110px;
+        border-radius: 60%;
+    }
+    .person-names{
+        background-color: green;
+        height: 300px;
+        width: 200px;
+        flex: 1;
+    }
+    .inner-life{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .inner-life h1{
+        margin: 35px;
+    }
+    .news-letter{
+        height: 300px;
+        width: 100%;
+    }
+    .inside-news{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 250px;
+    }
+    .search-box input{
+        padding: 10px 40px;
+        font-size: 16px;
+        outline: none;
+        border: none;
+    }
+    .search-box button{
+        float: right;
+        font-size: 16px;
+        outline: none;
+        border: none;
+        padding: 10px 25px;
+        background-color: yellow;
+    }
+    .inside-news button{
+       padding: 10px 25px;
+       outline: none;
+       border: none;
+    }
+  
+    .blog-container{
+        display: flex;
+    }
+    .blog .first{
+        height: 450px;
+        width: 300px;
+        margin: 20px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .blog .first h3,p{
+        margin: 25px 0;
+    }
+    .blog .first button{
+        padding: 10px 25px;
+    }
+
+.form-section{
+    display: flex;
+    justify-content: center;
+}
+.form-section img{
+    background-size: cover;
+    width: 500px;
+    margin: 20px 40px;
+}
+.form-section form input{
+    outline: none;
+    border: 2px solid black;
+    padding-inline-end: 20px 40px;
+}
+
+.footer{
+    background-color: rgba(149, 157, 157, 0.437);
+}
+.footer .inner-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .contact-us{
+    height: 250px;
+    margin: 40px 0;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 19px;
+}
+.bgcolor{
+    background-color: #f1f2f6;
+}
+
